@@ -1,0 +1,41 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    font-family: 'Yusei Magic';
+    height: auto;
+    padding:1em;
+    width: 45em;
+}
+
+.card-header h1 {
+    text-align: center;
+}
+
+.card-body p {
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fade-in {
+    animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
