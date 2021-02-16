@@ -26,10 +26,13 @@ body {
     text-align: center;
 }
 
+/*class*/
 .fade-in {
-    animation: fadeIn 0.7s;
+    /*animation*/
+    animation-duration: fadeIn 0.7s;
 }
 
+/*Animation sequence control*/
 @keyframes fadeIn {
     from {
         opacity: 0;
